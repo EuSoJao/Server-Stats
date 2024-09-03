@@ -4,5 +4,9 @@
     height: 20px;
     width: 80px;
     flex-direction: column;
+}
 
+#selector{
+    stroke: none;
+    outline: none;
 }
