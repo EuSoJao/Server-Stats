@@ -1,7 +1,7 @@
 const edition = document.getElementById("selector").value
 const adress = document.getElementById("adressInput").value
 
-function check(async){
+document.getElementById("search").addEventListener("click", async () => {
     try{
         const reponse = await fetch(`https://api.mcstatus.io/v2/status/${edition}/${adress}`);
         const data = await responde.json();
@@ -15,4 +15,4 @@ function check(async){
         console.error("moio o role")
     }
     
-} 
+})
