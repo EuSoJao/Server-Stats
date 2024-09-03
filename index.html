@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>McS Stats</title>
-</head>
-<body>
-    <label for="Selector">Select the server Edition</label>
-    <select name="Edition" id="Selector">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="search">
+      <label for="Selector">Select the server Edition</label>
+      <select name="Edition" id="Selector">
         <option value="Java">Java</option>
-        <option value="Bedrock">Java</option>
-    </select>
-</body>
+        <option value="Bedrock">Bedrock</option>
+      </select>
+      <input type="text" id="adressInput">
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
