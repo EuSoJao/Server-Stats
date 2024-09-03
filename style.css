@@ -1,6 +1,8 @@
 .search{
     display: flex;
     margin-top: 0;
+    height: 20px;
+    width: 40px;
     flex-direction: column;
     justify-content: center;
 }
