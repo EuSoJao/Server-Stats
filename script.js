@@ -11,14 +11,10 @@ onChange();*/
 document.getElementById("search").addEventListener("click", async () => {
   const edition = document.getElementById("selector");
   const adress = document.getElementById("adressInput").value;
-
-  function onChange() {
-    var editionValue = edition.value;
-  }
-
+  
   try {
     const reponse = await fetch(
-      `https://api.mcstatus.io/v2/status/${editionValue}/${adress}`
+      `https://api.mcstatus.io/v2/status/java/${adress}`
     );
     const data = await response.json();
 
