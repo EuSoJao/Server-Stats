@@ -16,9 +16,6 @@ document.getElementById("search").addEventListener("click", async () => {
     var editionValue = edition.value;
   }
 
-  edition.onchange = onChange;
-  onChange();
-
   try {
     const reponse = await fetch(
       `https://api.mcstatus.io/v2/status/${editionValue}/${adress}`
