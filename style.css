@@ -4,9 +4,15 @@
     height: 20px;
     width: 80px;
     flex-direction: column;
+    gap: 20px;
 }
 
 #selector{
     stroke: none;
     outline: none;
+}
+
+#search{
+    outline: none;
+    border-radius: 15px;
 }
