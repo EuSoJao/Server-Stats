@@ -2,9 +2,7 @@
     display: flex;
     margin-top: 0;
     height: 20px;
-    width: 40px;
+    width: auto;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
+
 }
