@@ -4,5 +4,7 @@
     height: 20px;
     width: 40px;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
+    align-items: center;
 }
